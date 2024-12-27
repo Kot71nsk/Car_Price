@@ -43,3 +43,50 @@
 3.   Библиотека scikit-learn.
 4.   Библиотека matplotlib.
 5.   Библиотека seaborn.
+
+
+# Car_Price
+
+# Code description
+
+
+The code is a complete implementation of a machine learning process for predicting the price of a car based on its characteristics. The code includes the following steps:
+
+1. **Data processing**
+Loading data from a CSV file using the pd.read_csv function.
+Deleting rows with missing values using the dropna function.
+Converting data types for the "price", "year", and "odometer" columns using the astype functions.
+Encoding categorical variables using the get_dummies function.
+Normalization of data using the apply function.
+
+2. **Separation into test and training data**
+Splitting the data into test and training data using the train_test_split function.
+
+3. **Model training**
+Training the XGBoost model using the XGBRegressor function.
+Training a linear regression model using the LinearRegression function.
+Training a decision tree model using the DecisionTreeRegressor function.
+Training the Gradient Boosting Regressor model using the GradientBoostingRegressor function.
+
+4. **Evaluation of models**
+Estimation of model accuracy using the MAE and MSE metrics using the mean_absolute_error and mean_squared_error functions.
+
+5. **Data visualization**
+Plotting the price dependence on the year of manufacture and brand using the lineplot function.
+Convert data to a long format using the melt function.
+Filtering data only for rows where the mark is 1.
+
+6. **The structure of the graph**
+Plotting the price dependence on the year of manufacture and brand using the lineplot function.
+
+# The purpose of the code
+
+The purpose of the code is to predict the price of a car based on its characteristics.
+
+# Requirements
+
+1. Python 3.x.
+2. The pandas library.
+3. Scikit-learn library.
+4. matplotlib library.
+5. Seaborn Library.
