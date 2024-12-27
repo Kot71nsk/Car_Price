@@ -45,7 +45,7 @@
 5.   Библиотека seaborn.
 
 
-# Car_Price
+
 
 # Code description
 
